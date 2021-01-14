@@ -31,3 +31,5 @@ require_relative 'sendgrid/helpers/stats/stats_response'
 require_relative 'sendgrid/helpers/stats/metrics'
 require_relative 'sendgrid/helpers/permissions/scope'
 require_relative 'rack/sendgrid_webhook_verification'
+
+Hash.include CoreExtensions::Hash::NewMethod
